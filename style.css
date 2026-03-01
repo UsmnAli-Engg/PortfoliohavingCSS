@@ -1,0 +1,96 @@
+/* ===== DARK PORTFOLIO THEME ===== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d;
+    font-family: "Poppins", sans-serif;
+    color: #f2f2f2;
+}
+
+.navbar {
+    background: #111;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+}
+
+.navbar a {
+    color: #e6e6e6;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00c8ff;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 12px 28px;
+    border: 2px solid #00c8ff;
+    color: #00c8ff;
+    background: transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.btn:hover {
+    background: #00c8ff;
+    color: black;
+}
+
+.section {
+    padding: 70px 60px;
+}
+
+.section h2 {
+    font-size: 40px;
+    color: #00c8ff;
+}
+
+.card {
+    background: #111;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 1px solid #222;
+}
+
+.profile-img {
+    width: 260px;
+    border-radius: 8px;
+    border: 2px solid #00c8ff;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    border-top: 1px solid #222;
+    color: #888;
+}
